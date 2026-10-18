@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100dvh;
+    display: grid;
+    place-content: center;
+    background-color: #222;
+}
+
+.clock__container {
+    border: .2rem solid #48e;
+    width: 40rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    color: #fff;
+}
+
+.hora {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.fecha {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
